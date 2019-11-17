@@ -1,0 +1,24 @@
+/* 清除浮动 开始 */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* 清除浮动 结束 */
+
+/* 版心 开始*/
+div .container {
+    width: 1565px;
+    height: auto;
+}
+
+/* 版心 结束*/
