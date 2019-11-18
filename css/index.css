@@ -1,0 +1,117 @@
+/* 重置样式 */
+a {
+  text-decoration: none;
+}
+
+/* 右边导航 开始 */
+.top-rightnav>.top-right-nav {
+  float: right;
+  position: relative;
+}
+
+.top-rightnav ul {
+  /* display: inline-block; */
+  width: 456px;
+  height: 40px;
+}
+
+.top-rightnav li {
+  display: inline-block;
+}
+
+
+.top-rightnav li a {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 12px;
+  color: #c8cbcc;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+.top-rightnav li i {
+  margin-left: 2px;
+}
+
+/* 右边导航 结束 */
+
+/* 顶端导航 开始 */
+.top-nav {
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+}
+
+/* 导航左边 开始 */
+.center-nav {
+  float: left;
+  position: relative;
+}
+
+/* logo部分 */
+.center-nav img {
+  float: left;
+  height: 53px;
+  width: 80px;
+  margin-top: 23px;
+}
+
+/* 文字导航部分 */
+.center-nav ul {
+  float: left;
+  width: 585px;
+  height: 22px;
+  /* background-color: blue; */
+  margin-top: 55px;
+  margin-left: 24px;
+}
+
+.center-nav ul li {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 18px;
+  margin: 0px 18px;
+}
+
+/* 中间的竖线 */
+.center-nav-line {
+  padding-right: 36px;
+  margin-right: 0px;
+  border-right: 1px solid #666666;
+}
+
+/* 导航左边 结束 */
+
+/* 导航右下的搜索栏 开始 */
+.search {
+  float: right;
+}
+
+.search>.search-area {
+  position: absolute;
+  width: 300px;
+  height: 38px;
+  right: 60px;
+  bottom: 20px;
+  /* background-color: white; */
+}
+
+.search-area input {
+  width: 223px;
+  height: 38px;
+}
+
+.search-area a span {
+  font-size: 26px;
+  color: #f7f7f7;
+  width: 77px;
+  height: 38px;
+  line-height: 38px;
+  background-color: #000000;
+}
+
+/* 导航右下的搜索栏 结束 */
+
+/* 顶端导航 结束 */
