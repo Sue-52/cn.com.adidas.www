@@ -1,117 +1,315 @@
-/* 重置样式 */
-a {
-  text-decoration: none;
+/* 整个body的背景 */
+body {
+  background-color: #eee;
 }
 
-/* 右边导航 开始 */
-.top-rightnav>.top-right-nav {
-  float: right;
-  position: relative;
-}
-
-.top-rightnav ul {
-  /* display: inline-block; */
-  width: 456px;
-  height: 40px;
-}
-
-.top-rightnav li {
-  display: inline-block;
-}
-
-
-.top-rightnav li a {
-  display: inline-block;
-  color: #ffffff;
-  font-size: 12px;
-  color: #c8cbcc;
-  margin-top: 12px;
-  margin-bottom: 10px;
-  margin-right: 40px;
-}
-
-.top-rightnav li i {
-  margin-left: 2px;
-}
-
-/* 右边导航 结束 */
 
 /* 顶端导航 开始 */
 .top-nav {
   width: 100%;
-  height: auto;
+}
+
+.top-nav {
+  height: 30px;
   background-color: #000000;
 }
 
-/* 导航左边 开始 */
-.center-nav {
-  float: left;
+.top-nav-left ul {
+  float: right;
+  height: 30px;
+}
+
+.top-nav-left ul li {
+  display: inline-block;
+  width: 105px;
+  text-align: center;
+}
+
+.top-nav-left li a {
+  color: #c8cbcc;
+  line-height: 30px;
+}
+
+.top-nav-left ul li:first-child,
+.top-nav-left ul li:nth-child(2),
+.top-nav-left ul li:nth-child(3),
+.top-nav-left ul li:last-child {
   position: relative;
 }
 
-/* logo部分 */
-.center-nav img {
-  float: left;
-  height: 53px;
-  width: 80px;
-  margin-top: 23px;
-}
-
-/* 文字导航部分 */
-.center-nav ul {
-  float: left;
-  width: 585px;
-  height: 22px;
-  /* background-color: blue; */
-  margin-top: 55px;
-  margin-left: 24px;
-}
-
-.center-nav ul li {
-  display: inline-block;
-  color: #ffffff;
-  font-weight: bolder;
-  font-size: 18px;
-  margin: 0px 18px;
-}
-
-/* 中间的竖线 */
-.center-nav-line {
-  padding-right: 36px;
-  margin-right: 0px;
-  border-right: 1px solid #666666;
-}
-
-/* 导航左边 结束 */
-
-/* 导航右下的搜索栏 开始 */
-.search {
-  float: right;
-}
-
-.search>.search-area {
+.top-nav-left ul li:first-child img {
   position: absolute;
-  width: 300px;
-  height: 38px;
-  right: 60px;
-  bottom: 20px;
-  /* background-color: white; */
+  top: 9px;
+  right: 12px;
 }
 
-.search-area input {
-  width: 223px;
-  height: 38px;
+.top-nav-left ul li:nth-child(2) img {
+  position: absolute;
+  top: 10px;
+  right: 18px;
 }
 
-.search-area a span {
-  font-size: 26px;
-  color: #f7f7f7;
-  width: 77px;
-  height: 38px;
-  line-height: 38px;
+.top-nav-left ul li:nth-child(3) img {
+  position: absolute;
+  top: 9px;
+  right: 8px;
+}
+
+.top-nav-left ul li:last-child img {
+  position: absolute;
+  top: 9px;
+  right: 20px;
+}
+
+/* 顶端导航 结束 */
+
+/* 搜索栏 开始 */
+
+.search-area {
+  height: 50px;
   background-color: #000000;
 }
 
-/* 导航右下的搜索栏 结束 */
+.search-area-nav ul {
+  float: left;
+  position: relative;
+  height: 50px;
+  margin-top: -13px;
+}
 
-/* 顶端导航 结束 */
+.search-area-nav ul li {
+  display: inline-block;
+}
+
+.search-area-nav ul li>a {
+  color: #ffffff;
+  font-size: 18px;
+  width: 36px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bolder;
+  padding: 0px 15px;
+}
+
+.search-part {
+  float: right;
+  width: 238px;
+  height: 100%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.search-part div:first-child {
+  float: left;
+  width: 180px;
+  height: 32px;
+  background-color: #ffffff;
+}
+
+.search-part div:first-child a img {
+  float: left;
+  margin: 8px 8px;
+}
+
+.search-part div:first-child a:last-child img {
+  float: left;
+  visibility: hidden;
+  margin: 9px;
+}
+
+.search-part div:first-child input:hover a:last-child img {
+  visibility: visible;
+}
+
+.search-part div:first-child input {
+  float: left;
+  width: 116px;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  color: #c3c3c3;
+}
+
+.search-part div:last-child {
+  float: left;
+  width: 58px;
+  height: 32px;
+}
+
+.search-part div:last-child a img {
+  padding-top: 6px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+
+/* 搜索栏 结束 */
+
+
+
+/* 导航下面的商品图片 开始 */
+.second-part-show {
+  position: relative;
+}
+
+
+.second-part-show a img {
+  width: 100%;
+}
+
+
+
+/* 第一想法：在后面加一个盒子 pass */
+/* 
+.second-box {
+  position: absolute;
+  bottom: 177px;
+  left: 230px;
+  width: 157px;
+  height: 50px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+} */
+
+.second-box-word {
+  position: absolute;
+  bottom: 180px;
+  left: 225px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #000000;
+  background-color: #000000;
+  z-index: 2;
+  overflow: visible;
+  transition: all 0.3;
+}
+
+
+.second-box-word::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  border-color: #fff;
+  box-shadow: inset 0 0 0 1px #000;
+  transform: translate(5px, 5px);
+  z-index: -1;
+}
+
+.second-box-word div:hover {
+  opacity: 0.6;
+}
+
+.second-box-word span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #ffffff;
+  z-index: 3;
+}
+
+
+.second-box-word i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #ffffff;
+  z-index: 3;
+}
+
+/* 导航下面的商品图片 结束 */
+
+/* 第三个商品图片 开始 */
+.third-part-show {
+  position: relative;
+}
+
+.third-part-show a img {
+  width: 100%;
+}
+
+.third-box-word-one {
+  position: absolute;
+  bottom: 250px;
+  left: 225px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #000000;
+  background-color: #000000;
+  z-index: 2;
+  overflow: visible;
+  transition: all 0.3;
+}
+
+.third-box-word-one div:hover {
+  opacity: 0.6;
+}
+
+.third-box-word-one span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #ffffff;
+  z-index: 3;
+}
+
+
+.third-box-word-one i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #ffffff;
+  z-index: 3;
+}
+
+
+.third-box-word-two {
+  position: absolute;
+  bottom: 180px;
+  left: 225px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #000000;
+  background-color: #000000;
+  z-index: 2;
+  overflow: visible;
+  transition: all 0.3;
+}
+
+.third-box-word-two div:hover {
+  opacity: 0.6;
+}
+
+.third-box-word-two span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #ffffff;
+  z-index: 3;
+}
+
+
+.third-box-word-two i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #ffffff;
+  z-index: 3;
+}
+
+/* 第三个商品图片 结束 */
