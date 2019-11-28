@@ -228,6 +228,7 @@ body {
 
 /* 第三个商品图片 开始 */
 .third-part-show {
+  margin-top: 15px;
   position: relative;
 }
 
