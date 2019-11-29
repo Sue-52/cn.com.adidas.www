@@ -1,6 +1,6 @@
 /* 整个body的背景 */
 body {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 
@@ -79,6 +79,12 @@ body {
 
 .search-area-nav ul li {
   display: inline-block;
+}
+
+.search-area-nav ul li:nth-child(5) {
+  margin: 0px 15 px;
+  color: #666666;
+  font-size: 24px;
 }
 
 .search-area-nav ul li>a {
@@ -201,6 +207,10 @@ body {
   z-index: -1;
 }
 
+.second-box-word div {
+  transition: all 0.4s;
+}
+
 .second-box-word div:hover {
   opacity: 0.6;
 }
@@ -248,7 +258,10 @@ body {
   background-color: #000000;
   z-index: 2;
   overflow: visible;
-  transition: all 0.3;
+}
+
+.third-box-word-one div {
+  transition: all 0.3s;
 }
 
 .third-box-word-one div:hover {
@@ -287,7 +300,10 @@ body {
   background-color: #000000;
   z-index: 2;
   overflow: visible;
-  transition: all 0.3;
+}
+
+.third-box-word-two div {
+  transition: all 0.3s;
 }
 
 .third-box-word-two div:hover {
@@ -314,3 +330,138 @@ body {
 }
 
 /* 第三个商品图片 结束 */
+
+/* 第四部分：四个鞋子并排 开始 */
+.forth-part-show {
+  margin-top: 28px;
+  margin-bottom: 40px;
+  height: 220px;
+}
+
+.forth-shoes-part {
+  float: left;
+}
+
+.forth-shoes-part li {
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  padding: 22px 0px;
+}
+
+.forth-shoes-part li a h3 {
+  text-decoration: underline;
+  font-size: 14px;
+  margin-top: 25px;
+  font-weight: lighter;
+}
+
+/* 第四部分：四个鞋子并排 结束 */
+
+/* 第五部分：鞋子的展示 开始 */
+.fifth-part-show {
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 0px 24px;
+}
+
+.fifth-part-show a img {
+  float: left;
+  margin-bottom: 20px;
+  width: 915px;
+}
+
+.fifth-box-word-one {
+  position: absolute;
+  bottom: 60px;
+  left: 384px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+  z-index: 2;
+  overflow: visible;
+  transition: all 0.3;
+}
+
+.fifth-box-word-one div {
+  transition: all 0.4s;
+}
+
+
+.fifth-box-word-one div:hover {
+  opacity: 0.6;
+}
+
+.fifth-box-word-one span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #000;
+  z-index: 3;
+}
+
+
+.fifth-box-word-one i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #000;
+  z-index: 3;
+}
+
+.fifth-part-show a:last-child img {
+  float: left;
+  position: relative;
+  margin-left: 22px;
+  margin-bottom: 20px;
+}
+
+
+.fifth-box-word-two {
+  position: absolute;
+  bottom: 60px;
+  right: 468px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+  z-index: 2;
+  overflow: visible;
+}
+
+.fifth-box-word-two div {
+  transition: all 0.4s;
+}
+
+.fifth-box-word-two div:hover {
+  opacity: 0.6;
+}
+
+.fifth-box-word-two span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #000;
+  z-index: 3;
+}
+
+
+.fifth-box-word-two i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #000;
+  z-index: 3;
+}
+
+/* 第五部分：鞋子的展示 结束 */
