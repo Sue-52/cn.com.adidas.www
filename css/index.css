@@ -360,13 +360,15 @@ body {
 
 /* 第五部分：鞋子的展示 开始 */
 .fifth-part-show {
-  float: left;
   position: relative;
   width: 100%;
+  height: 607px;
+  margin-bottom: 15px;
   padding: 0px 24px;
+  border: 1px soild #000000;
 }
 
-.fifth-part-show a img {
+.fifth-part-show a:first-child img {
   float: left;
   margin-bottom: 20px;
   width: 915px;
@@ -465,3 +467,449 @@ body {
 }
 
 /* 第五部分：鞋子的展示 结束 */
+
+/* 第六部分：商品展示 开始 */
+.sixth-part-show {
+  margin: 15px 0px;
+  height: 720px;
+  width: 100%;
+  position: relative;
+}
+
+.sixth-part-show a img {
+  width: 100%;
+}
+
+.sixth-box-word-one {
+  position: absolute;
+  bottom: 250px;
+  left: 865px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+  z-index: 2;
+  overflow: visible;
+}
+
+.sixth-box-word-one div {
+  transition: all 0.3s;
+}
+
+.sixth-box-word-one div:hover {
+  opacity: 0.6;
+}
+
+.sixth-box-word-one span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #000;
+  z-index: 3;
+}
+
+
+.sixth-box-word-one i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #000;
+  z-index: 3;
+}
+
+.sixth-box-word-two {
+  position: absolute;
+  bottom: 170px;
+  left: 865px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+  z-index: 2;
+  overflow: visible;
+}
+
+.sixth-box-word-two div {
+  transition: all 0.3s;
+}
+
+.sixth-box-word-two div:hover {
+  opacity: 0.6;
+}
+
+.sixth-box-word-two span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #000;
+  z-index: 3;
+}
+
+
+.sixth-box-word-two i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #000;
+  z-index: 3;
+}
+
+/* 第六部分：商品展示 结束 */
+
+/* 第七部分：商品展示 开始 */
+.seventh-box-word-one {
+  position: absolute;
+  bottom: 35px;
+  left: 400px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #000000;
+  background-color: #000000;
+  z-index: 2;
+  overflow: visible;
+}
+
+.seventh-box-word-one div {
+  transition: all 0.3s;
+}
+
+.seventh-box-word-one div:hover {
+  opacity: 0.6;
+}
+
+.seventh-box-word-one span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #ffffff;
+  z-index: 3;
+}
+
+
+.seventh-box-word-one i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #ffffff;
+  z-index: 3;
+}
+
+.seventh-box-word-two {
+  position: absolute;
+  bottom: 35px;
+  right: 455px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+  z-index: 2;
+  overflow: visible;
+}
+
+.seventh-box-word-two div {
+  transition: all 0.3s;
+}
+
+.seventh-box-word-two div:hover {
+  opacity: 0.6;
+}
+
+.seventh-box-word-two span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #000;
+  z-index: 3;
+}
+
+
+.seventh-box-word-two i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #000;
+  z-index: 3;
+}
+
+/* 第八部分:商品展示 开始 */
+
+/* 第八部分:商品展示 结束 */
+.eighth-part-show {
+  width: 100%;
+  height: 720px;
+  position: relative;
+}
+
+.eighth-box-word {
+  width: 100%;
+}
+
+.eighth-box-word {
+  position: absolute;
+  bottom: 180px;
+  left: 230px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #000;
+  background-color: #000;
+  z-index: 2;
+  overflow: visible;
+}
+
+.eighth-box-word div {
+  transition: all 0.3s;
+}
+
+.eighth-box-word div:hover {
+  opacity: 0.6;
+}
+
+.eighth-box-word span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #fff;
+  z-index: 3;
+}
+
+.eighth-box-word i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #fff;
+  z-index: 3;
+}
+
+/* 第九部分：商品展示 开始 */
+.ninth-part-show {
+  width: 100%;
+  height: 720px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+
+.ninth-box-word {
+  width: 100%;
+}
+
+.ninth-box-word {
+  position: absolute;
+  bottom: 180px;
+  left: 230px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+  z-index: 2;
+  overflow: visible;
+}
+
+.ninth-box-word div {
+  transition: all 0.3s;
+}
+
+.ninth-box-word div:hover {
+  opacity: 0.6;
+}
+
+.ninth-box-word span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #000;
+  z-index: 3;
+}
+
+.ninth-box-word i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #000;
+  z-index: 3;
+}
+
+/* 第九部分：商品展示 结束 */
+
+/* 第十部分：商品展示 开始 */
+.tenth-part-show {
+  width: 100%;
+  height: 720px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+
+.tenth-box-show {
+  width: 100%;
+}
+
+.tenth-box-word-one {
+  position: absolute;
+  bottom: 220px;
+  left: 225px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+  z-index: 2;
+  overflow: visible;
+}
+
+.tenth-box-word-one div {
+  transition: all 0.3s;
+}
+
+.tenth-box-word-one div:hover {
+  opacity: 0.6;
+}
+
+.tenth-box-word-one span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  z-index: 3;
+}
+
+.tenth-box-word-one i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #000;
+  font-weight: lighter;
+  z-index: 3;
+}
+
+.tenth-box-word-two {
+  position: absolute;
+  bottom: 150px;
+  left: 225px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #fff;
+  z-index: 2;
+  overflow: visible;
+}
+
+.tenth-box-word-two div {
+  transition: all 0.3s;
+}
+
+.tenth-box-word-two div:hover {
+  opacity: 0.6;
+}
+
+.tenth-box-word-two span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  z-index: 3;
+}
+
+.tenth-box-word-two i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #000;
+  font-weight: lighter;
+  z-index: 3;
+}
+
+/* 第十部分：商品展示 结束 */
+
+/* 第十一部分：商品展示 开始 */
+.eleventh-part-show {
+  width: 100%;
+  height: 870px;
+  position: relative;
+}
+
+.eleventh-container {
+  width: 1485px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.eleventh-box-content-top a img {
+  float: left;
+  width: 365px;
+  height: 367px;
+  margin: 0px;
+  border: 0px;
+}
+
+.eleventh-box-content-bottom {
+  position: absolute;
+  bottom: 40px;
+  left: 865px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #000000;
+  background-color: #000000;
+  z-index: 2;
+  overflow: visible;
+}
+
+.eleventh-box-content-bottom div {
+  transition: all 0.3s;
+}
+
+.eleventh-box-content-bottom div:hover {
+  opacity: 0.6;
+}
+
+.eleventh-box-content-bottom span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  z-index: 3;
+}
+
+.eleventh-box-content-bottom i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #fff;
+  font-weight: lighter;
+  z-index: 3;
+}
