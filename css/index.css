@@ -917,7 +917,7 @@ body {
 /* 第十二部份：商品轮播图 开始 */
 .twelfth-carousel-first {
   width: 100%;
-  height: 500px;
+  height: 450px;
 }
 
 .twelfth-title {
@@ -935,8 +935,7 @@ body {
 .twelfth_content {
   float: left;
   position: relative;
-  height: 450px;
-  border: 1px solid #cccccc;
+  height: 420px;
 }
 
 .carsousel_first {
@@ -980,6 +979,35 @@ body {
   width: 259px;
   height: 20px;
   padding-top: 5px;
+  margin-bottom: 30px;
+}
+
+/* 底部小圆点 */
+.circle {
+  float: left;
+  position: absolute;
+  bottom: 0px;
+  left: 530px;
+}
+
+.circle li {
+  display: inline-block;
+  list-style: circle;
+  width: 10px;
+  height: 10px;
+  margin-left: 20px;
+  font-size: 40px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  color: #000;
+}
+
+.circle .current {
+  background-color: black;
+}
+
+.circle li:hover {
+  background-color: #000000;
 }
 
 /* 精灵图部分 */
