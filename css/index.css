@@ -917,7 +917,8 @@ body {
 /* 第十二部份：商品轮播图 开始 */
 .twelfth-carousel-first {
   width: 100%;
-  height: 450px;
+  height: 470px;
+  margin-bottom: 20px;
 }
 
 .twelfth-title {
@@ -938,9 +939,7 @@ body {
   height: 420px;
 }
 
-.carsousel_first {
-  width: 200%;
-}
+
 
 .carsousel_first li {
   float: left;
@@ -983,10 +982,18 @@ body {
 }
 
 /* 底部小圆点 */
+.bottom-circle {
+  float: left;
+  width: 100%;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
 .circle {
   float: left;
   position: absolute;
-  bottom: 0px;
+  top: 0px;
   left: 530px;
 }
 
@@ -1012,7 +1019,6 @@ body {
 
 /* 精灵图部分 */
 .carsousel_left {
-  display: none;
   background-image: url(../image/icon.png);
   width: 26px;
   height: 26px;
@@ -1033,7 +1039,6 @@ body {
 }
 
 .carsousel_right {
-  display: none;
   background-image: url(../image/icon.png);
   width: 26px;
   height: 26px;
@@ -1054,3 +1059,290 @@ body {
 }
 
 /* 第十二部份：商品轮播图 结束 */
+
+/* 底部 开始 */
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #000000;
+}
+
+.footer-bottom {
+  width: 100%;
+}
+
+.footer-bottom ul {
+  float: left;
+}
+
+.footer-bottom ul li {
+  float: left;
+  height: 65px;
+  color: #fff;
+  padding-top: 35px;
+  /* display: inline-block; */
+}
+
+.footer-bottom ul li:first-child {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 100px;
+  width: 97px;
+  padding: 0px;
+  color: #fff;
+  margin-right: 80px;
+}
+
+.footer-bottom li:nth-child(2) a {
+  position: relative;
+  height: 25px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 80px;
+}
+
+.footer-bottom li:nth-child(2) a i {
+  background-image: url(../image/icon.png);
+  width: 17px;
+  height: 15px;
+  background-position: -400px -85px;
+  position: absolute;
+  bottom: 0px;
+  left: -25px;
+}
+
+.footer-bottom li:nth-child(2) p {
+  margin-top: 5px;
+  color: #888888;
+}
+
+.footer-bottom li:nth-child(3) h3,
+.footer-bottom li:nth-child(4) h3,
+.footer-bottom li:nth-child(5) h3 {
+  position: relative;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 80px;
+}
+
+.footer-bottom li:nth-child(3) h3 i {
+  background-image: url(../image/icon.png);
+  width: 15px;
+  height: 15px;
+  background-position: -75px -87px;
+  position: absolute;
+  bottom: 0px;
+  left: -25px;
+}
+
+.footer-bottom li:nth-child(4) h3 i {
+  background-image: url(../image/icon.png);
+  width: 16px;
+  height: 12px;
+  background-position: -96px -86px;
+  position: absolute;
+  bottom: 0px;
+  left: -25px;
+}
+
+.footer-bottom li:nth-child(5) h3 i {
+  background-image: url(../image/icon.png);
+  width: 16px;
+  height: 16px;
+  background-position: 0px -112px;
+  position: absolute;
+  bottom: 0px;
+  left: -25px;
+}
+
+.footer-bottom li:nth-child(3) p,
+.footer-bottom li:nth-child(4) p,
+.footer-bottom li:nth-child(5) p {
+  margin-top: 5px;
+  color: #888888;
+}
+
+.footer-bottom a:last-child {
+  position: relative;
+  float: right;
+  font-size: 16px;
+  line-height: 100px;
+  margin-left: 100px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-bottom a:last-child i {
+  float: right;
+  background-image: url(../image/icon-new.png);
+  width: 16px;
+  height: 17px;
+  background-position: -151px 0px;
+  position: absolute;
+  bottom: 41px;
+  left: -25px;
+}
+
+/* 第十五部分：底部总结 开始 */
+.bottom-total {
+  width: 100%;
+}
+
+.intr-left {
+  width: 1040px;
+  float: left;
+}
+
+.intr-left dl {
+  float: left;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.intr-left dl dt {
+  display: inline-block;
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.intr-left dl dd {
+  margin-bottom: 13px;
+  font-size: 14px;
+}
+
+.join-right {
+  width: 240px;
+  float: left;
+}
+
+.join-right dl:first-child,
+.join-right dl:last-child {
+  width: 110px;
+  float: left;
+}
+
+.join-right dl:first-child dt,
+.join-right dl:last-child dt {
+  margin-top: 40px;
+  font-weight: bolder;
+  font-size: 16px;
+  position: relative;
+}
+
+.join-right dl:first-child dd:nth-child(2) i {
+  background-image: url(../image/icon.png);
+  width: 29px;
+  height: 23px;
+  background-position: -130px -155px;
+  position: absolute;
+  top: 75px;
+  right: 210px;
+  transition: all 0.5s;
+}
+
+.join-right dl:first-child dd:last-child i {
+  background-image: url(../image/icon.png);
+  width: 30px;
+  height: 24px;
+  background-position: -270px -154px;
+  position: absolute;
+  top: 75px;
+  right: 160px;
+  transition: all 0.5s;
+}
+
+.join-right dl:first-child dd:nth-child(2) i:hover,
+.join-right dl:first-child dd:last-child i:hover {
+  opacity: 0.3;
+}
+
+.join-right dl:last-child dd:nth-child(2) i {
+  background-image: url(../image/icon-new.png);
+  width: 30px;
+  height: 22px;
+  background-position: -154px -34px;
+  position: absolute;
+  top: 75px;
+  right: 80px;
+  transition: all 0.5s;
+}
+
+.join-right dl:last-child dd:nth-child(2) i:hover {
+  opacity: 0.3;
+}
+
+.sale-bottom {
+  width: 100%;
+  float: left;
+  margin-top: 35px;
+}
+
+.sale-bottom p {
+  font-size: 14px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.sale-bottom p span:first-child {
+  background-image: url(../image/icon-new.png);
+  width: 76px;
+  height: 25px;
+  background-position: -270px -34px;
+  position: absolute;
+  bottom: 0px;
+  left: 160px;
+}
+
+.sale-bottom p span:nth-child(2) {
+  background-image: url(../image/icon-new.png);
+  width: 90px;
+  height: 25px;
+  background-position: -404px -34px;
+  position: absolute;
+  bottom: 0px;
+  left: 250px;
+}
+
+.sale-bottom p span:nth-child(3) {
+  background-image: url(../image/icon-new.png);
+  width: 111px;
+  height: 22px;
+  background-position: -270px -65px;
+  position: absolute;
+  bottom: 0px;
+  left: 355px;
+}
+
+.sale-bottom p span:last-child {
+  background-image: url(../image/icon-new.png);
+  width: 153px;
+  height: 21px;
+  background-position: -270px -97px;
+  position: absolute;
+  bottom: 0px;
+  left: 480px;
+}
+
+.cellphone {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.cellphone span {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 90px;
+  margin-bottom: 40px;
+}
+
+/* 第十五部分：底部总结 结束 */
+
+/* 第十六部分： 安全 开始 */
+
+
+
+/* 第十六部分： 安全 结束 */
