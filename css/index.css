@@ -88,6 +88,7 @@ body {
 }
 
 .search-area-nav ul li>a {
+  position: relative;
   color: #ffffff;
   font-size: 18px;
   width: 36px;
@@ -364,14 +365,15 @@ body {
   width: 100%;
   height: 607px;
   margin-bottom: 15px;
-  padding: 0px 24px;
   border: 1px soild #000000;
+  box-sizing: border-box;
 }
 
 .fifth-part-show a:first-child img {
   float: left;
   margin-bottom: 20px;
   width: 915px;
+  padding-left: 24px;
 }
 
 .fifth-box-word-one {
@@ -422,6 +424,7 @@ body {
   position: relative;
   margin-left: 22px;
   margin-bottom: 20px;
+  height: 607px;
 }
 
 
@@ -656,6 +659,10 @@ body {
   position: relative;
 }
 
+.eighth-part-show a img {
+  width: 100%;
+}
+
 .eighth-box-word {
   width: 100%;
 }
@@ -708,6 +715,9 @@ body {
   margin-bottom: 15px;
 }
 
+.ninth-part-show a img {
+  width: 100%;
+}
 
 .ninth-box-word {
   width: 100%;
@@ -763,6 +773,9 @@ body {
   margin-bottom: 15px;
 }
 
+.tenth-part-show a img {
+  width: 100%;
+}
 
 .tenth-box-show {
   width: 100%;
@@ -851,6 +864,65 @@ body {
 }
 
 /* 第十部分：商品展示 结束 */
+
+/* 视频部分 开始 */
+.the-video {
+  width: 100%;
+  position: relative;
+}
+
+.the-video h3 {
+  position: absolute;
+  top: 280px;
+  left: 140px;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.the-video-content {
+  position: absolute;
+  bottom: 130px;
+  left: 225px;
+  width: 157px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border: 1px solid #000000;
+  background-color: #000000;
+  z-index: 2;
+  overflow: visible;
+}
+
+.the-video-content div {
+  transition: all 0.3s;
+}
+
+.the-video-content div:hover {
+  opacity: 0.6;
+}
+
+.the-video-content span {
+  margin-left: 20px;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  z-index: 3;
+}
+
+.the-video-content i {
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: lighter;
+  z-index: 3;
+}
+
+/* 视频部分 结束 */
+
 
 /* 第十一部分：商品展示 开始 */
 .eleventh-part-show {
@@ -1007,6 +1079,7 @@ body {
   border-radius: 50%;
   border: 1px solid #000000;
   color: #000;
+  box-sizing: border-box;
 }
 
 .circle .current {
@@ -1015,6 +1088,7 @@ body {
 
 .circle li:hover {
   background-color: #000000;
+  box-sizing: border-box;
 }
 
 /* 精灵图部分 */
