@@ -1,3 +1,335 @@
 /* 会员-导航 开始 */
+.vip-part {
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cccccc;
+}
+
+.vip {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.vip div img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.vip div:first-child {
+    float: left;
+    width: 110px;
+    height: 40px;
+    margin-left: 250px;
+}
+
+
+.vip div:nth-child(2) {
+    float: left;
+    width: 220px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+.vip div:last-child {
+    float: left;
+    width: 180px;
+    height: 40px;
+    margin-left: 150px;
+}
 
 /* 会员-导航 结束 */
+
+/* 男子部分：导航 开始 */
+.man-nav {
+    height: 60px;
+    width: 100%;
+}
+
+.nav-part ul {
+    float: left;
+    margin-left: 155px;
+}
+
+.nav-part ul li {
+    float: left;
+    line-height: 60px;
+}
+
+.nav-part li:first-child b {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'heiti';
+    margin-left: 0px;
+}
+
+.nav-part li {
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.nav-part li a:hover {
+    text-decoration: underline;
+    color: #025f8e;
+}
+
+/* 男子部分：导航 结束 */
+
+/* 男子：轮播图 开始 */
+.man-carousel {
+    width: 1903px;
+    height: 603px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.side {
+    /* width: 2; */
+    transition: 0.6s;
+    position: relative;
+}
+
+.side a>img {
+    width: 1903px;
+    height: 100%;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 10px;
+    border: 2px solid #cccccc;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover {
+    background-color: #ffffff;
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+#r1:checked~.s1 {
+    margin-left: 0;
+}
+
+#r2:checked~.s1 {
+    margin-left: -25%;
+}
+
+#r3:checked~.s1 {
+    margin-left: -50%;
+}
+
+#r4:checked~.s1 {
+    margin-left: -75%;
+}
+
+.man-in-box-1 {
+    position: absolute;
+    bottom: 250px;
+    left: 870px;
+    width: 157px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    z-index: 2;
+    overflow: visible;
+}
+
+.man-in-box-1 div {
+    transition: all 0.3s;
+}
+
+.man-in-box-1 div:hover {
+    opacity: 0.6;
+}
+
+.man-in-box-1 span {
+    margin-left: 20px;
+    float: left;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #000000;
+    z-index: 3;
+}
+
+
+.man-in-box-1 i {
+    position: absolute;
+    top: 2px;
+    right: 25px;
+    font-size: 28px;
+    color: #000000;
+    z-index: 3;
+}
+
+
+.man-in-box-2 {
+    position: absolute;
+    bottom: 180px;
+    left: 870px;
+    width: 157px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    z-index: 2;
+    overflow: visible;
+}
+
+.man-in-box-2 div {
+    transition: all 0.3s;
+}
+
+.man-in-box-2 div:hover {
+    opacity: 0.6;
+}
+
+.man-in-box-2 span {
+    margin-left: 20px;
+    float: left;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #000000;
+    z-index: 3;
+}
+
+
+.man-in-box-2 i {
+    position: absolute;
+    top: 2px;
+    right: 25px;
+    font-size: 28px;
+    color: #000000;
+    z-index: 3;
+}
+
+/* 男子：轮播图 结束 */
+
+/* 男子：商品 开始 */
+.commondity {
+    width: 100%;
+}
+
+.com-part {
+    width: 100%;
+    height: 475px;
+    margin-top: 50px;
+}
+
+.com-part ul {
+    float: left;
+    margin: 0px 28px;
+}
+
+.com-part ul li {
+    float: left;
+    width: 291px;
+    height: 100%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-left: 9px;
+}
+
+.com-part ul li:first-child {
+    margin-left: 0px;
+}
+
+.com-part li:hover {
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+.com-part li a>img {
+    width: 100%;
+}
+
+.com-part li a>h3 {
+    font-size: 18px;
+    font-family: 'heiti';
+    font-weight: bolder;
+}
+
+.com-part li a>span {
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* 男子：商品 结束 */
+
+/* 男子：分类 开始 */
+.items {
+    width: 100%;
+    height: 950px;
+    margin-bottom: 20px;
+}
+
+.item:first-child,
+.item:nth-child(2) {
+    margin-top: 50px;
+    width: 575px;
+    height: 425px;
+    float: left;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-left: 32px;
+}
+
+.item:last-child,
+.item:nth-last-child(2) {
+    margin-top: 50px;
+    width: 575px;
+    height: 425px;
+    float: left;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-left: 32px;
+}
+
+.item:hover {
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+.item a>img {
+    width: 100%;
+    height: 320px;
+    /* border: 1px soild transparent; */
+}
+
+.item a>h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.item a>p {
+    margin-top: 25px;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+/* 男子：分类 结束 */

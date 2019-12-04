@@ -987,6 +987,10 @@ body {
 }
 
 /* 第十二部份：商品轮播图 开始 */
+.twelfth-carousel {
+  position: relative;
+}
+
 .twelfth-carousel-first {
   width: 100%;
   height: 470px;
@@ -1010,8 +1014,6 @@ body {
   position: relative;
   height: 420px;
 }
-
-
 
 .carsousel_first li {
   float: left;
@@ -1092,6 +1094,7 @@ body {
 }
 
 /* 精灵图部分 */
+
 .carsousel_left {
   background-image: url(../image/icon.png);
   width: 26px;
