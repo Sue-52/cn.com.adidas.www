@@ -1,3 +1,181 @@
 /* 会员-导航 开始 */
+.vip-part {
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cccccc;
+}
+
+.vip {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.vip div img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.vip div:first-child {
+    float: left;
+    width: 110px;
+    height: 40px;
+    margin-left: 250px;
+}
+
+
+.vip div:nth-child(2) {
+    float: left;
+    width: 220px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+.vip div:last-child {
+    float: left;
+    width: 180px;
+    height: 40px;
+    margin-left: 150px;
+}
 
 /* 会员-导航 结束 */
+
+/* 童装部分：导航 开始 */
+.kids-nav {
+    height: 60px;
+    width: 100%;
+}
+
+.nav-part ul {
+    float: left;
+    margin-left: 155px;
+}
+
+.nav-part ul li {
+    float: left;
+    line-height: 60px;
+}
+
+.nav-part li:first-child b {
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'heiti';
+    margin-left: 0px;
+}
+
+.nav-part li {
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.nav-part li a:hover {
+    text-decoration: underline;
+    color: #025f8e;
+}
+
+/* 童装部分：导航 结束 */
+
+/* 大图 开始 */
+.kids-in-box-1 div,
+.kids-in-box-2 div {
+    transition: all 0.3s;
+}
+
+.kids-in-box-1 div:hover,
+.kids-in-box-2 div:hover {
+    opacity: 0.6;
+}
+
+.kids-in-box-1 span,
+.kids-in-box-2 span {
+    margin-left: 20px;
+    float: left;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #000000;
+    z-index: 3;
+}
+
+
+.kids-in-box-1 i,
+.kids-in-box-2 i {
+    position: absolute;
+    top: 2px;
+    right: 25px;
+    font-size: 28px;
+    color: #000000;
+    z-index: 3;
+}
+
+.kids-in-box-1 {
+    position: absolute;
+    bottom: 250px;
+    left: 870px;
+    width: 157px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    z-index: 2;
+    overflow: visible;
+}
+
+
+.kids-in-box-2 {
+    position: absolute;
+    bottom: 180px;
+    left: 870px;
+    width: 157px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    z-index: 2;
+    overflow: visible;
+}
+
+/* 大图 结束 */
+
+/* 童装：类别 开始 */
+.class {
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.class div {
+    float: left;
+    height: 415px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.class div:first-child {
+    margin-left: 38px;
+}
+
+.class div:hover {
+    border: 1px solid #cccccc;
+}
+
+.class div img {
+    width: 100%;
+}
+
+.class div h3 {
+    font-size: 18px;
+    font-family: 'heiti';
+}
+
+.class div p {
+    margin-top: 25px;
+    text-decoration: underline;
+    font-size: 16px;
+    color: #474747;
+}
+
+/* 童装：类别 结束 */
