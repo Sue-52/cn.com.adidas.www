@@ -1019,6 +1019,7 @@ body {
   float: left;
   text-align: left;
   margin: 0px 6px;
+  border: 1px solid transparent;
   box-sizing: border-box;
 }
 
