@@ -138,6 +138,7 @@ body {
 }
 
 .search-part div:last-child {
+  position: relative;
   float: left;
   width: 58px;
   height: 32px;
@@ -149,6 +150,24 @@ body {
   box-sizing: border-box;
 }
 
+.search-part div:last-child a p {
+  display: none;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(42, 218, 113, 0.85);
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  transition: 0.5s;
+}
+
+.search-part div:last-child a:hover p {
+  display: block;
+}
 
 /* 搜索栏 结束 */
 
@@ -348,7 +367,14 @@ body {
   width: 300px;
   text-align: center;
   padding: 22px 0px;
+  border: 1px solid transparent;
+  box-sizing: border-box;
 }
+
+.forth-shoes-part li:hover {
+  border: 1px solid #c8cbcc;
+}
+
 
 .forth-shoes-part li a h3 {
   text-decoration: underline;
@@ -1069,7 +1095,7 @@ body {
   float: left;
   position: absolute;
   top: 0px;
-  left: 530px;
+  left: 568px;
 }
 
 .circle li {

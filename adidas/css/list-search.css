@@ -32,6 +32,7 @@
 }
 
 .search-area-content {
+    position: relative;
     visibility: hidden;
     width: 1903px;
     position: absolute;
@@ -42,7 +43,7 @@
     background-color: #fff;
     z-index: 2;
     transition-property: height;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
 }
 
 
@@ -65,7 +66,7 @@
     background-color: #fff;
     z-index: 2;
     transition-property: height;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
 }
 
 .search-area-nav li:nth-last-child(3):hover .search-area-content-sport {
@@ -84,7 +85,7 @@
     background-color: #fff;
     z-index: 2;
     transition-property: height;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
 }
 
 .search-area-nav li:nth-last-child(2):hover .search-area-content-brand {
