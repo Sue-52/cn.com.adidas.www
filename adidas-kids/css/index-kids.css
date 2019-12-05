@@ -141,37 +141,41 @@
 
 /* 童装：类别 开始 */
 .class {
+    width: 100%;
+    height: 415px;
+}
+
+.class-part {
     width: 1250px;
     margin: 0 auto;
     margin-top: 50px;
 }
 
-.class div {
+.class-part div {
     float: left;
-    height: 415px;
     margin-left: 10px;
     border: 1px solid transparent;
     box-sizing: border-box;
 }
 
-.class div:first-child {
+.class-part div:first-child {
     margin-left: 38px;
 }
 
-.class div:hover {
+.class-part div:hover {
     border: 1px solid #cccccc;
 }
 
-.class div img {
+.class-part div img {
     width: 100%;
 }
 
-.class div h3 {
+.class-part div h3 {
     font-size: 18px;
     font-family: 'heiti';
 }
 
-.class div p {
+.class-part div p {
     margin-top: 25px;
     text-decoration: underline;
     font-size: 16px;
@@ -179,3 +183,19 @@
 }
 
 /* 童装：类别 结束 */
+
+/* 儿童：产品 开始 */
+.shows {
+    width: 100%;
+    height: 180px;
+}
+
+.shows ul {
+    float: left;
+}
+
+.shows ul:first-child {
+    margin-left: 480px;
+}
+
+/* 儿童：产品 结束 */
