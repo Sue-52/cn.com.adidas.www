@@ -687,6 +687,8 @@ body {
 
 .eighth-part-show a img {
   width: 100%;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .eighth-box-word {
@@ -896,6 +898,11 @@ body {
   width: 100%;
   position: relative;
 }
+
+.the-video video {
+  vertical-align: middle;
+}
+
 
 .the-video h3 {
   position: absolute;
